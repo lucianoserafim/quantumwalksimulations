@@ -15,7 +15,7 @@ from math import sqrt
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import oracle
+import countingOracleSimulation
 import walking
 import functions
 from datetime import datetime
@@ -57,7 +57,7 @@ X,Y,Z,W,P,Q,S,T,V = functions.openFileOffset(path,initialOffset)
 # Oracle and counting
 while (True):
     
-    k = oracle.oracle(learningRate,offset,middlePoint,path,X,Y,Z,W,P,Q,S,T,V)
+    k = countingOracleSimulation.countingOracleSimulation(learningRate,offset,middlePoint,path,X,Y,Z,W,P,Q,S,T,V)
    
     if (k != 0):
         
