@@ -10,7 +10,7 @@ Created on Thu Dec  6 19:58:20 2018
 import numpy as np
 import functions
 
-def oracle(learningRate,offset,initialPoint,address,X,Y,Z,W,P,Q,S,T,V):
+def countingOracleSimulation(learningRate,offset,initialPoint,address,X,Y,Z,W,P,Q,S,T,V):
     
     text = ""
     
