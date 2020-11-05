@@ -33,7 +33,7 @@ k = 0
 middlePoint = np.int(np.ceil(L/2))
 
 # Relatives values
-windowValue = 4
+windowValue = 2
 window = [middlePoint-windowValue,middlePoint+windowValue]
 
 # shifts values
